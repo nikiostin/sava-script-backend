@@ -13,7 +13,10 @@ SECRET_KEY = 'django-insecure-aax0^8hnkeu@@&vi2(7vj364dkz!5+(h$^s6%v5t7*jizkqirn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'www.nikiostin.pythonanywhere.com',
+    'nikiostin.pythonanywhere.com',
+]
 
 
 #BASE
